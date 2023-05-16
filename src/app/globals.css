@@ -1,27 +1,142 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    color: #000;
+    height: 100vh;
+    margin: 50px 150px;
+    font-weight: 100;
 }
+
+.layout {
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    color: #000;
+    height: 100vh;
+    margin: 60px 100px;
+}
+
+.header {
+    display: flex;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 40px 0;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.hero {
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #fff;
+    z-index: 2;
+    position: relative;
+    font-weight: 100;
+    text-align: center;
+    height: 100%;
+    font-size: 72px;
+}
+
+.works {
+   display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.grid-element {
+    width: 32%;
+    min-width: 200px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.grid-element img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-element h3 {
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+    position: relative;
+    bottom: 63px;
+    padding: 10px;
+    margin: 0;
+}
+
+.submenu {
+    background: rgba(255, 255, 255, 0.6);
+    width: 152px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    text-align: right;
+    z-index: 2;
+    padding: 15px 0px;
+    line-height: 27px;
+}
+
+.submenu ul {
+    display: block;
+}
+
+.about {
+    display: flex;
+    margin: 60px 0;
+    justify-content: space-between;
+}
+
+.about .info {
+    width: 450px;
+    margin-right: 30px;
+}
+
+.about .info .portrait {
+    color: transparent;
+    width: 450px;
+    object-fit: contain;
+    height: 355px
+}
+
+.about .bio {
+    width: 60%;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.about .bio p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
