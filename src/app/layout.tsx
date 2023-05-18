@@ -1,7 +1,7 @@
-import { Inter } from 'next/font/google'
+import { Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
 import Header from "@/app/header";
-const inter = Inter({ subsets: ['latin'], weight: "100" })
+const Garamond = Cormorant_Garamond({ subsets: ['latin'],   style: ['normal', 'italic'], weight: "300" })
 
 export const metadata = {
   title: 'Amanda Elida Varhaugvik',
@@ -16,7 +16,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={Garamond.className}>
       <div className="layout">
         <Header />
         {children}

@@ -1,17 +1,20 @@
 import Image from 'next/image';
 
-import works1 from '../../public/assets/work1.jpg'
-import hero from '../../public/assets/amanda-hero.jpg'
+import works1 from '../../public/assets/trascendence.jpg'
+import works2 from '../../public/assets/her.jpg'
+
+import hero from '../../public/assets/hero.png'
 export default function Home() {
   return (
       <>
-          <div className="hero">
-              <Image
-                  alt="Amanda"
-                  src={hero}
-                  layout='fill'
-                  objectFit='cover'
-              />
+          <div className="hero" style={{
+              backgroundImage: `url(${hero.src})`,
+              // backgroundPositionY: '-235px',
+              // backgroundPositionX: '-23px',
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat'
+          }}>
               <h1>Amanda Elida Varhaugvik</h1>
           </div>
           <div className="works">
@@ -25,16 +28,9 @@ export default function Home() {
               <div className="grid-element">
                   <Image
                       alt="transcendence"
-                      src={works1}
+                      src={works2}
                   />
-                  <h3>A merging of Costumes, Voice & Transcendence</h3>
-              </div>
-              <div className="grid-element">
-                  <Image
-                      alt="transcendence"
-                      src={works1}
-                  />
-                  <h3>A merging of Costumes, Voice & Transcendence</h3>
+                  <h3>Her</h3>
               </div>
           </div>
       </>

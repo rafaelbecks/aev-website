@@ -1,18 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 
 body {
     background: #fff;
-    font-family: 'Inter', sans-serif;
     font-style: italic;
     color: #000;
     height: 100vh;
     margin: 50px 150px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .layout {
     background: #fff;
-    font-family: 'Inter', sans-serif;
     font-style: italic;
     color: #000;
     height: 100vh;
@@ -48,11 +45,20 @@ body {
 
 .hero {
     width: 100%;
-    min-height: 400px;
+    min-height: 330px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    object-fit: cover;
+    color: transparent;
 }
 
 .hero h1 {
@@ -66,16 +72,19 @@ body {
 }
 
 .works {
-   display: flex;
+    display: flex;
+    flex-direction: column;
     margin-top: 60px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-element {
-    width: 32%;
+    width: 700px;
     min-width: 200px;
-    height: 250px;
+    height: 400px;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 .grid-element img {
@@ -85,7 +94,7 @@ body {
 }
 
 .grid-element h3 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 100;
     color: #fff;
     position: relative;
@@ -121,7 +130,7 @@ body {
     margin-right: 30px;
 }
 
-.about .info .portrait {
+.about .info .portrait img {
     color: transparent;
     width: 450px;
     object-fit: contain;
@@ -140,3 +149,69 @@ body {
 }
 
 
+/*Responsive*/
+
+@media screen and (max-width: 768px) {
+    .layout {
+        margin: 20px 22px;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .grid-element {
+        width: 90%;
+        height: 300px;
+    }
+
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .info {
+        text-align: center;
+    }
+
+    .about .bio {
+        width: 80%;
+    }
+
+    .about .info .portrait img {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    body {
+        margin: 0;
+    }
+
+    .grid-element {
+        width: 450px;
+        height: 300px;
+    }
+
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .bio {
+        width: 80%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+    body {
+        margin: 0;
+    }
+
+    .about .bio {
+        width: 80%;
+    }
+}

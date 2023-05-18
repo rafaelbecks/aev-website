@@ -5,10 +5,9 @@ export default function Home() {
             <div className="about">
                 <div className="info">
                     <div className="portrait">
-                        <Image
-                            alt="transcendence"
-                            src={works1}
-                            width={350}
+                        <img
+                            alt="portrait"
+                            src={works1.src}
                         />
                     </div>
                 </div>
