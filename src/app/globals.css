@@ -81,6 +81,8 @@ body {
 
 .works a {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 .grid-element {
@@ -274,6 +276,10 @@ body {
     .performances-container .description {
         margin: 0;
     }
+
+    .vimeo-container {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px){
@@ -305,6 +311,11 @@ body {
     .performances-container .description .principal {
         width: 100%;
     }
+
+    .performances .item h3 {
+        bottom: 80px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1100px) {
@@ -313,6 +324,15 @@ body {
         width: 33%;
         height: 180px;
     }
+
+    .performances .item h3 {
+        bottom: 80px;
+    }
+
+    .vimeo-container {
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1440px) {
