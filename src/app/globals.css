@@ -266,6 +266,14 @@ body {
     .performances .item {
         margin-bottom: 30px;
     }
+
+    .performances-container .description .principal {
+        width: 100%;
+    }
+
+    .performances-container .description {
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px){
@@ -292,6 +300,10 @@ body {
     .performances .item {
         width: 300px;
         height: 200px;
+    }
+
+    .performances-container .description .principal {
+        width: 100%;
     }
 }
 
