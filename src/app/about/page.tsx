@@ -1,5 +1,9 @@
-import Image from 'next/image';
-import works1 from '../../../public/assets/amanda.png'
+import {Inter} from "next/font/google";
+
+import portrait from '../../../public/assets/amanda.png'
+
+const InterFont = Inter({ subsets: ['latin'], weight: ["300", '100'] })
+
 export default function Home() {
     return (
             <div className="about">
@@ -7,11 +11,11 @@ export default function Home() {
                     <div className="portrait">
                         <img
                             alt="portrait"
-                            src={works1.src}
+                            src={portrait.src}
                         />
                     </div>
                 </div>
-                <div className="bio">
+                <div  className={`bio ${InterFont.className}`}>
                     <p>
                         I am a Swedish/Norwegian artist based in Stockholm.</p>
                     <p>

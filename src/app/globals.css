@@ -138,8 +138,11 @@ body {
 }
 
 .about .bio {
+    font-family: 'Inter', sans-serif;
     width: 60%;
     font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
     line-height: 34px;
 }
 
