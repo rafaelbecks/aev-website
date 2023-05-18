@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from "next/link";
 
 import works1 from '../../public/assets/trascendence.jpg'
 import works2 from '../../public/assets/her.jpg'
@@ -18,13 +19,15 @@ export default function Home() {
               <h1>Amanda Elida Varhaugvik</h1>
           </div>
           <div className="works">
-              <div className="grid-element">
-                  <Image
-                      alt="transcendence"
-                      src={works1}
-                  />
-                  <h3>A merging of Costumes, Voice & Transcendence</h3>
-              </div>
+              <Link href="performances/merging-costume-voice-transcendence">
+                  <div className="grid-element">
+                      <Image
+                          alt="transcendence"
+                          src={works1}
+                      />
+                      <h3>A merging of Costumes, Voice & Transcendence</h3>
+                  </div>
+              </Link>
               <div className="grid-element">
                   <Image
                       alt="transcendence"

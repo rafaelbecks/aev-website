@@ -1,3 +1,5 @@
+"use client"
+
 import {Inter} from "next/font/google";
 
 import portrait from '../../../public/assets/amanda.png'

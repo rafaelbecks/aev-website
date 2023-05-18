@@ -33,7 +33,7 @@ export default function Header() {
                 {showSubMenu && (
                     <div className="submenu">
                         <ul>
-                            <li>Performances</li>
+                            <Link href="/performances"><li>Performances</li></Link>
                             <li>Works</li>
                             <li>Collaborations</li>
                         </ul>
