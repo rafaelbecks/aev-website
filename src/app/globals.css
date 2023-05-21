@@ -225,6 +225,14 @@ body {
 }
 
 
+.vimeo-container img {
+    color: transparent;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
 /*Responsive*/
 
 @media screen and (max-width: 768px) {

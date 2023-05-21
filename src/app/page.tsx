@@ -28,13 +28,15 @@ export default function Home() {
                       <h3>A merging of Costumes, Voice & Transcendence</h3>
                   </div>
               </Link>
-              <div className="grid-element">
-                  <Image
-                      alt="transcendence"
-                      src={works2}
-                  />
-                  <h3>Her</h3>
-              </div>
+              <Link href="performances/her">
+                  <div className="grid-element">
+                      <Image
+                          alt="transcendence"
+                          src={works2}
+                      />
+                      <h3>Her</h3>
+                  </div>
+              </Link>
           </div>
       </>
   )

@@ -6,18 +6,19 @@ import Script from 'next/script'
 import {Baskervville, Crimson_Text } from "next/font/google";
 import FsLightbox from "fslightbox-react";
 
-import performances1 from '../../../../public/assets/performances/trasncendence-1.jpg'
-import performances2 from '../../../../public/assets/performances/transcendence/details/2.jpg'
-import performances3 from '../../../../public/assets/performances/transcendence/details/3.jpg'
-import performances4 from '../../../../public/assets/performances/transcendence/details/4.jpg'
-import performances5 from '../../../../public/assets/performances/transcendence/details/5.jpg'
-import performances6 from '../../../../public/assets/performances/transcendence/details/6.jpg'
+import principal from '../../../../public/assets/performances/her/principal.jpg'
+import performances1 from '../../../../public/assets/performances/her/1.jpg'
+import performances2 from '../../../../public/assets/performances/her/2.jpg'
+import performances3 from '../../../../public/assets/performances/her/3.jpg'
+import performances4 from '../../../../public/assets/performances/her/4.jpg'
+import performances5 from '../../../../public/assets/performances/her/5.jpg'
+import performances6 from '../../../../public/assets/performances/her/5.jpg'
 
 const BaskervvilleFont = Baskervville({ subsets: ['latin'],   style: ['normal', 'italic'], weight: "400" })
 
 const CrimsonFont = Crimson_Text({ subsets: ['latin'], weight: "400" })
 
-export default function Transcendence() {
+export default function Her() {
 
     const [lightboxController, setLightboxController] = useState({
         toggler: false,
@@ -28,14 +29,10 @@ export default function Transcendence() {
       <div className="performances-container">
 
           <div className="vimeo-container">
-              <div style={{padding:'56.25% 0 0 0', position:'relative'}}>
-                  <iframe src="https://player.vimeo.com/video/409703681?h=2ddbdadb34&title=0&byline=0&portrait=0"
-                          style={{
-                              position: 'absolute', top: 0, left: 0, width: "100%", height: '100%'}}
-                          frameBorder="0"
-                          allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
-              </div>
-              <Script src="https://player.vimeo.com/api/player.js" ></Script>
+              <Image
+                  alt="transcendence-3"
+                  src={principal}
+              />
           </div>
 
 
@@ -94,24 +91,13 @@ export default function Transcendence() {
 
 
           <div className={`description ${BaskervvilleFont.className}`}>
-              <h2 className={CrimsonFont.className}>A merging of costumes, voice & transendence </h2>
-              <p className="principal">
-                  A merging of Costumes, Voice & Transcendence is a performance work presenting Costume <br />
-                  as the main performer.<br />
-                  In this piece The Body is used as a supportive structure and The Voice as an enchanting tool<br />
-                  to demand presence.<br />
-                  Entering, to create a transcendent experience of textile in a secular art context.<br />
-              </p>
+              <h2 className={CrimsonFont.className}>Her</h2>
               <p className="body">
-                  The live performance is 15 min long and is performed by Amanda Elida Varhaugvik on vocals, Elsa Bergman on Bass and Paula Sundberg. It is a fusion of live music and meditative yet instructive movements that showcase the costumes.
-                  <br />
-                  The Costumes are three ensembles of different qualities of fabric with dyed and hand painted patterns and prints made of my own photographs. Working with photo on textile is one of my main techniques. Usually I use photographs of the recent work I’ve done to create a transference of use. In these costumes I have also used photos of my grandmothers porcelain angel collection, of dead and dried flowers and family pictures from my brothers baptism and my mothers confirmation.
-                  <br />
-                  The Installation contains three wooden hangers and a faux leather carpet with ribbons. The faux leather carpet activates into a stage during the performance and The wooden hangers are used as supporting structures for the costumes when it is over.
+                  The performance ” Her”  is 30 minutes long and is performed by me on vocals and a fan organ together with my mother Siv Varhaugvik on Shimes. In this work I use my textile creations as a tool for creating sound. Hand dyed silk bags filled with sand are placed as weights on the fan organs keys, this creates a standing chord that fills the room. On top of this ongoing audio, I record vocals loops that grow together with the fan organ and become a musical piece that accompanies the textiles and the rituals we perform.                  <br />
                   <br />
                   <br />
-                  Contact me for full lenght video.
-                  Documentation by: Felica Sundberg
+                  Performed at the arthall Not Quite in Fengerfors, 2019.
+                  <br />
                   <br />
                   <br />
                   <br />
