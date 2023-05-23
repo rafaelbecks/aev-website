@@ -34,8 +34,8 @@ export default function Header() {
                     <div className="submenu">
                         <ul>
                             <Link href="/performances"><li>Performances</li></Link>
-                            <li>Works</li>
-                            <li>Collaborations</li>
+                            <Link href="/works"><li>Works</li></Link>
+                            <Link href="/collaborations"><li>Collaborations</li></Link>
                         </ul>
                     </div>
                 )}
