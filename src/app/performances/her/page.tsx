@@ -13,6 +13,7 @@ import performances3 from '../../../../public/assets/performances/her/3.jpg'
 import performances4 from '../../../../public/assets/performances/her/4.jpg'
 import performances5 from '../../../../public/assets/performances/her/5.jpg'
 import performances6 from '../../../../public/assets/performances/her/5.jpg'
+import PlayIcon from "@/app/performances/her/icons";
 
 const BaskervvilleFont = Baskervville({ subsets: ['latin'],   style: ['normal', 'italic'], weight: "400" })
 
@@ -50,8 +51,9 @@ export default function Her() {
               }}>
                   <Image
                       alt="transcendence-2"
-                      src={performances2}
+                      src={principal}
                   />
+                  <PlayIcon />
               </div>
               <div className="item" onClick={() => {
                   setLightboxController({toggler: !lightboxController.toggler, slide: 3})
@@ -84,7 +86,7 @@ export default function Her() {
               }}>
                   <Image
                       alt="transcendence-3"
-                      src={performances6}
+                      src={performances2}
                   />
               </div>
           </div>
@@ -108,7 +110,14 @@ export default function Her() {
                   toggler={lightboxController.toggler}
                   sources={[
                       String(performances1.src),
-                      String(performances2.src),
+                      <iframe
+                          src="https://player.vimeo.com/video/382749855"
+                          width="1920px"
+                          height="1080px"
+                          frameBorder="0"
+                          allow="autoplay; fullscreen"
+                          allowFullScreen
+                      />,
                       String(performances3.src),
                       String(performances4.src),
                       String(performances5.src),

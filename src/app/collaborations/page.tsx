@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from "next/link";
 
-import performances1 from '../../../public/assets/works/works1.jpg'
-import performances2 from '../../../public/assets/works/works2.jpg'
-import performances3 from '../../../public/assets/works/works3.jpg'
+import performances1 from '../../../public/assets/collaborations/1.jpg'
+import performances2 from '../../../public/assets/collaborations/2.jpg'
+import performances3 from '../../../public/assets/collaborations/3.jpeg'
 
 export default function Collaborations() {
     return (

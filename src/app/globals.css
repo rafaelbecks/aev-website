@@ -176,6 +176,17 @@ body {
     width: 350px;
     cursor: pointer;
     height: 250px;
+    position: relative;
+}
+
+.performances .item svg {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 77px;
+    left: 136px;
+    fill: white;
+    opacity: 0.7;
 }
 
 .performances .item h3 {
@@ -222,6 +233,7 @@ body {
     text-align: left;
     font-style: normal;
     font-size: 16px;
+    line-height: 35px;
 }
 
 
