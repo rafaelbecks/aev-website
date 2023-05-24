@@ -64,9 +64,9 @@ export default function Transcendence() {
             </div>
 
             <div className={`description ${BaskervvilleFont.className}`}>
-                <p className="principal">
-                    I ́ve decided spring is a bore is a multidisciplinary performance I created together with the muscian Feliz Nilsson and the dancer Emma Tolander, for the Culture night in Stockholm 2022.
-                    We merged our diffrent practices together and transformed one of the studios in Kulturhuset to reminate a dreamscape in the midst of winters passage into spring. Inspired by the poem ” Ja visst gör det ont” by Karin Boye. <br /><br />
+                <p className="body">
+                    <i>I ́ve decided spring is a bore</i> is a multidisciplinary performance I created together with the muscian Feliz Nilsson and the dancer Emma Tolander, for the Culture night in Stockholm 2022.
+                    We merged our diffrent practices together and transformed one of the studios in Kulturhuset to reminate a dreamscape in the midst of winters passage into spring. Inspired by the poem <i>”Ja visst gör det ont”</i> by Karin Boye. <br /><br />
                 </p>
                 <FsLightbox
                     toggler={lightboxController.toggler}

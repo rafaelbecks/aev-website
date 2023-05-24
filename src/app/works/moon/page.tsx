@@ -51,7 +51,7 @@ export default function Transcendence() {
             </div>
 
             <div className={`description ${BaskervvilleFont.className}`}>
-                <p className="principal">
+                <p className="body" style={{ display: 'flex', justifyContent: 'center'}}>
                     <br /><br />
                     A series of photographs taken during autumn 2022.<br />
                     Portraying my mother in various layers of textile, handcrafted by me.<br /><br />

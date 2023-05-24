@@ -94,7 +94,7 @@ export default function Transcendence() {
 
 
           <div className={`description ${BaskervvilleFont.className}`}>
-              <h2 className={CrimsonFont.className}>A merging of costumes, voice & transendence </h2>
+              <h2 className={CrimsonFont.className}>A merging of costumes, voice & transcendence </h2>
               <p className="principal">
                   A merging of Costumes, Voice & Transcendence is a performance work presenting Costume <br />
                   as the main performer.<br />

@@ -42,28 +42,30 @@ export default function Works() {
           </div>
           <div className="performances">
               <Link href="works/lay">
-              <div className="item">
-                  <Image
-                      alt="transcendence-1"
-                      src={performances4}
-                  />
-                  <h3>Lay,<br />mixed media</h3>
-              </div>
+                  <div className="item">
+                      <Image
+                          alt="transcendence-1"
+                          src={performances4}
+                      />
+                      <h3>Lay,<br />mixed media</h3>
+                  </div>
               </Link>
-              <div className="item">
-                  <Image
-                      alt="transcendence-2"
-                      src={performances5}
-                  />
-                  <h3>Campion series,<br />Wearable collection</h3>
-              </div>
-              <div className="item">
-                  <Image
-                      alt="transcendence-3"
-                      src={performances6}
-                  />
-                  <h3>The item series,<br />photographs</h3>
-              </div>
+                  <div className="item">
+                      <Image
+                          alt="transcendence-2"
+                          src={performances5}
+                      />
+                      <h3>Campion series,<br />Wearable collection</h3>
+                  </div>
+              <Link href="works/items">
+                  <div className="item">
+                      <Image
+                          alt="transcendence-3"
+                          src={performances6}
+                      />
+                      <h3>The item series,<br />photographs</h3>
+                  </div>
+              </Link>
           </div>
       </div>
   )

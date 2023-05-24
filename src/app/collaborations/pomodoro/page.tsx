@@ -64,8 +64,8 @@ export default function Transcendence() {
           </div>
 
           <div className={`description ${BaskervvilleFont.className}`}>
-              <p className="principal">
-                  Á Cue : Pomdoro is a performance piece that I created together with the artist John Claesson.
+              <p className="body">
+                  <i>Á Cue : Pomdoro</i> is a performance piece that I created together with the artist John Claesson.
                   The performance took place outside in a tunnel in Stockholm, under a winter night. During one year we created costumes together that was meant to be used as tools to generate ritualistic experiences. Accomponating the performance was also the saxophone player Julia Sztralek who stood in the crowd, playing out her impressions of the performance. <br /><br />
               </p>
               <FsLightbox

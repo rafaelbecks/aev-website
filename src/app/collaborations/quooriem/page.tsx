@@ -51,7 +51,7 @@ export default function Transcendence() {
             </div>
 
             <div className={`description ${BaskervvilleFont.className}`}>
-                <p className="principal">
+                <p className="body" style={{ display: 'flex', justifyContent: 'center'}}>
                     I created 10 unique robes for Uncover Choreography ́s performance ”Quööriem”. <br />
                     I also participated as a performer on their show at Eric Ericssonhallen 2022. <br />
                     Photographs by: Elinor Tollerz Bratteby and Thomas Hultgren.<br /><br />

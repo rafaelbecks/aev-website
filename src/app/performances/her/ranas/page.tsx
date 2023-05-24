@@ -64,7 +64,7 @@ export default function Transcendence() {
           </div>
 
           <div className={`description ${BaskervvilleFont.className}`}>
-              <p className="principal">
+              <p className="body" style={{ display: 'flex', justifyContent: 'center'}}>
                   A shorter version of the performance ”Her” adapted to the garden of Rånäs slott. <br />
                   During the summer art exhbition at Stenkvarnen 2021.<br /><br />
               </p>

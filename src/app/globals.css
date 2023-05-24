@@ -166,6 +166,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .performances a {
@@ -177,6 +178,12 @@ body {
     cursor: pointer;
     height: 250px;
     position: relative;
+}
+
+.performances .portrait {
+    height: 400px;
+    width: 300px;
+    margin-top: 15px;
 }
 
 .performances .item svg {
@@ -297,6 +304,10 @@ body {
         margin: 0;
     }
 
+    .performances .item p {
+        display: none;
+    }
+
     .vimeo-container {
         width: 100%;
     }
@@ -328,6 +339,12 @@ body {
         height: 200px;
     }
 
+    .performances .portrait {
+        height: 400px;
+        width: 300px;
+        margin-top: 15px;
+    }
+
     .performances-container .description .principal {
         width: 100%;
     }
@@ -343,6 +360,13 @@ body {
     .performances .item {
         width: 33%;
         height: 180px;
+    }
+
+
+    .performances .portrait {
+        height: 300px;
+        width: 25%;
+        margin-top: 15px;
     }
 
     .performances .item h3 {
@@ -362,5 +386,11 @@ body {
 
     .about .bio {
         width: 80%;
+    }
+
+    .performances .portrait {
+        height: 400px;
+        width: 300px;
+        margin-top: 15px;
     }
 }

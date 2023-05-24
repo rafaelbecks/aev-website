@@ -63,7 +63,7 @@ export default function Her() {
           </div>
 
           <div className={`description ${BaskervvilleFont.className}`}>
-              <p className="body">
+              <p className="body" style={{ display: 'flex', justifyContent: 'center'}}>
                   Lay is a woodenbox with a thai silk print placed inside of it. On top of the box lies fresch chrysanthemum flowers. <br /> Shown at Vita havet, Konstfack during the group exhibition ”Yellow” 2019. <br />Dimensions: 175 x 80 x 50 cm
                   <br />
                   <br />

@@ -81,11 +81,11 @@ export default function Transcendence() {
 
 
           <div className={`description ${BaskervvilleFont.className}`}>
-              <p className="principal">
+              <p className="body" style={{ display: 'flex', justifyContent: 'center'}}>
                   In spring 2023 I was invited by the platform and magazine Current Obsession to perform in Amsterdam. <br />
                   I showed my work ”A merging of Costumes, Voice & Transcendence” and participated in a panel discussion. <br />
                   Location: Fashion for good museum.<br />
-                  Photograpgs by: Melanie Marsman
+                  Photograpgs by: Melanie Marsman<br /><br />
               </p>
               <FsLightbox
                   toggler={lightboxController.toggler}

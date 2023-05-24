@@ -51,7 +51,7 @@ export default function Transcendence() {
             </div>
 
             <div className={`description ${BaskervvilleFont.className}`}>
-                <p className="principal">
+                <p className="body">
                     <br /><br />
 
                     Pictures of the fruit sculptures here printed on plastic canvas and then tied together with linen thread bows. Placed on a roll of brown paper. <br/>

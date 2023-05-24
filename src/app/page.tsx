@@ -19,7 +19,7 @@ export default function Home() {
               <h1>Amanda Elida Varhaugvik</h1>
           </div>
           <div className="works">
-              <Link href="performances/merging-costume-voice-transcendence">
+              <Link href="performances/merging-costume-voice-transcendence/konstfack">
                   <div className="grid-element">
                       <Image
                           alt="transcendence"

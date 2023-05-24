@@ -24,7 +24,7 @@ export default function Transcendence() {
     return (
         <div className="performances-container">
             <div className="performances">
-                <div className="item" onClick={() => {
+                <div className="item portrait" onClick={() => {
                     setLightboxController({toggler: !lightboxController.toggler, slide: 1})
                 }}>
                     <Image
@@ -42,7 +42,7 @@ export default function Transcendence() {
                     />
                     <p>Arién</p>
                 </div>
-                <div className="item" onClick={() => {
+                <div className="item portrait" onClick={() => {
                     setLightboxController({toggler: !lightboxController.toggler, slide: 3})
                 }}>
                     <Image
@@ -54,7 +54,7 @@ export default function Transcendence() {
             </div>
 
             <div className={`description ${BaskervvilleFont.className}`}>
-                <p className="principal">
+                <p className="body" style={{ display: 'flex', justifyContent: 'center'}}>
                     <br /><br />
 
                     Sculptures made from, ploms, grapes and raisins. Built and portrayed 2022.<br />

@@ -81,7 +81,7 @@ export default function Transcendence() {
 
 
           <div className={`description ${BaskervvilleFont.className}`}>
-              <p className="principal">
+              <p className="body" style={{ display: 'flex', justifyContent: 'center'}}>
                   A merging of Costumes, Voice & Transendence performed at Panncentralen <br />
                   during the group exhbition ”Masters of Craft” at Gustavsbergs Konsthall, 2020.
               </p>
