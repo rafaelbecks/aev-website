@@ -12,7 +12,7 @@ export default function Works() {
   return (
       <div className="performances-container">
           <div className="performances">
-              <Link href="performances/merging-costume-voice-transcendence">
+              <Link href="works/moon">
                   <div className="item">
                       <Image
                           alt="transcendence-1"
@@ -21,22 +21,27 @@ export default function Works() {
                       <h3>Moon <br />photographs</h3>
                   </div>
               </Link>
-              <div className="item">
-                  <Image
-                      alt="transcendence-2"
-                      src={performances2}
-                  />
-                  <h3>Arién series,<br />fruit sculptures</h3>
-              </div>
-              <div className="item">
-                  <Image
-                      alt="transcendence-3"
-                      src={performances3}
-                  />
-                  <h3>Georgina,<br />mixed media</h3>
-              </div>
+              <Link href="works/arien">
+                  <div className="item">
+                      <Image
+                          alt="transcendence-2"
+                          src={performances2}
+                      />
+                      <h3>Arién series,<br />fruit sculptures</h3>
+                  </div>
+              </Link>
+              <Link href="works/georgina">
+                  <div className="item">
+                      <Image
+                          alt="transcendence-3"
+                          src={performances3}
+                      />
+                      <h3>Georgina,<br />mixed media</h3>
+                  </div>
+              </Link>
           </div>
           <div className="performances">
+              <Link href="works/lay">
               <div className="item">
                   <Image
                       alt="transcendence-1"
@@ -44,6 +49,7 @@ export default function Works() {
                   />
                   <h3>Lay,<br />mixed media</h3>
               </div>
+              </Link>
               <div className="item">
                   <Image
                       alt="transcendence-2"

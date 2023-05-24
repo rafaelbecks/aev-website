@@ -12,7 +12,7 @@ export default function Performances() {
   return (
       <div className="performances-container">
           <div className="performances">
-              <Link href="performances/merging-costume-voice-transcendence">
+              <Link href="performances/merging-costume-voice-transcendence/konstfack">
                   <div className="item">
                       <Image
                           alt="transcendence-1"
@@ -21,13 +21,16 @@ export default function Performances() {
                       <h3>A merging of Costumes, Voice & Transcendence <br />at Vita havet, Konstfack</h3>
                   </div>
               </Link>
-              <div className="item">
-                  <Image
-                      alt="transcendence-2"
-                      src={performances2}
-                  />
-                  <h3>A merging of Costumes, Voice & Transcendence <br />at Panncentralen , Gustavsbergskonsthall </h3>
-              </div>
+              <Link href="performances/merging-costume-voice-transcendence/panncentralen">
+                  <div className="item">
+                      <Image
+                          alt="transcendence-2"
+                          src={performances2}
+                      />
+                      <h3>A merging of Costumes, Voice & Transcendence <br />at Panncentralen , Gustavsbergskonsthall </h3>
+                  </div>
+              </Link>
+              <Link href="performances/merging-costume-voice-transcendence/fashion-for-good">
               <div className="item">
                   <Image
                       alt="transcendence-3"
@@ -35,29 +38,36 @@ export default function Performances() {
                   />
                   <h3>A merging of Costumes, Voice & Transcendence <br />at Fashion for good Museum  </h3>
               </div>
+              </Link>
           </div>
           <div className="performances">
-              <div className="item">
-                  <Image
-                      alt="transcendence-1"
-                      src={performances4}
-                  />
-                  <h3>Her <br />at Not Quite</h3>
-              </div>
-              <div className="item">
-                  <Image
-                      alt="transcendence-2"
-                      src={performances5}
-                  />
-                  <h3>Her <br />at Rånäs slott</h3>
-              </div>
-              <div className="item">
-                  <Image
-                      alt="transcendence-3"
-                      src={performances6}
-                  />
-                  <h3>Him <br />at Dotdotdot</h3>
-              </div>
+              <Link href="performances/her">
+                  <div className="item">
+                      <Image
+                          alt="transcendence-1"
+                          src={performances4}
+                      />
+                      <h3>Her <br />at Not Quite</h3>
+                  </div>
+              </Link>
+              <Link href="performances/her/ranas">
+                  <div className="item">
+                      <Image
+                          alt="transcendence-2"
+                          src={performances5}
+                      />
+                      <h3>Her <br />at Rånäs slott</h3>
+                  </div>
+              </Link>
+              <Link href="performances/him">
+                  <div className="item">
+                      <Image
+                          alt="transcendence-3"
+                          src={performances6}
+                      />
+                      <h3>Him <br />at Dotdotdot</h3>
+                  </div>
+              </Link>
           </div>
       </div>
   )
