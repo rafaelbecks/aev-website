@@ -111,6 +111,7 @@ export default function Her() {
                   sources={[
                       String(performances1.src),
                       <iframe
+                          key={'iframe'}
                           src="https://player.vimeo.com/video/382749855"
                           width="1920px"
                           height="1080px"
