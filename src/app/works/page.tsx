@@ -50,13 +50,15 @@ export default function Works() {
                       <h3>Lay,<br />mixed media</h3>
                   </div>
               </Link>
-                  <div className="item">
+              <Link href="works/campion">
+                 <div className="item">
                       <Image
                           alt="transcendence-2"
                           src={performances5}
                       />
                       <h3>Campion series,<br />Wearable collection</h3>
                   </div>
+              </Link>
               <Link href="works/items">
                   <div className="item">
                       <Image
