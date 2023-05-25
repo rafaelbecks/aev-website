@@ -3,6 +3,7 @@
 import {Inter} from "next/font/google";
 
 import portrait from '../../../public/assets/amanda.png'
+import Link from "next/link";
 
 const InterFont = Inter({ subsets: ['latin'], weight: ["300", '100'] })
 
@@ -15,6 +16,24 @@ export default function Home() {
                             alt="portrait"
                             src={portrait.src}
                         />
+                    </div>
+                    <div className={`${InterFont.className} bioinfo`}>
+                        <p>
+                            <Link href={"/assets/CV.pdf"} target="_blank" rel="noreferrer">CV</Link></p>
+                        <p>Contact</p>
+                        <p>
+                            Email:<br />
+                            <a href="mailto:amandaelidavarhaugvik@gmail.com">
+                                amandaelidavarhaugvik@gmail.com
+                            </a>
+                        </p>
+                        <p>
+                            Instagram:<br />
+                            <a href="https://www.instagram.com/amandaelidavarhaugvik/">
+                                @amandaelidavarhaugvik
+                            </a>
+
+                        </p>
                     </div>
                 </div>
                 <div  className={`bio ${InterFont.className}`}>
