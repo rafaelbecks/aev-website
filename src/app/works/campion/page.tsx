@@ -34,6 +34,7 @@ export default function Transcendence() {
 
     return (
         <div className="performances-container">
+            <h2 className={CrimsonFont.className} style={{ textAlign: 'center', marginBottom: '30px'}}>Campion</h2>
             <div className="performances">
                 <div className="item portrait" onClick={() => {
                     setLightboxController({toggler: !lightboxController.toggler, slide: 1})

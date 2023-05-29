@@ -24,7 +24,7 @@ export default function Her() {
 
   return (
       <div className="performances-container">
-
+          <h2 className={CrimsonFont.className} style={{ textAlign: 'center', marginBottom: '30px'}}>Lay</h2>
           <div className="vimeo-container" onClick={() => {
               setLightboxController({toggler: !lightboxController.toggler, slide: 1})
           }}>
