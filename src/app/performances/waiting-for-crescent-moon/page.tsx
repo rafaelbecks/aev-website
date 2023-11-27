@@ -96,7 +96,7 @@ export default function CrescentMoon() {
           <div className={`description ${BaskervvilleFont.className}`}>
               <h2>Waiting for the crescent moon</h2>
               <p className="body" style={{ display: 'flex', justifyContent: 'center'}}>
-                  &ldquo; &rdquo;Waiting for the crescent moon	&ldquo; &rdquo; is a performance work, woven around a meticulously handcrafted textile carpet. Its a crossgenre mythological fairytale drama, materialized through live music, movement, and the very fabric of textile. In this work I invited the Venezuelan software engineer and musician Rafael Becerra.
+                  &ldquo;Waiting for the crescent moon&rdquo; is a performance work, woven around a meticulously handcrafted textile carpet. Its a crossgenre mythological fairytale drama, materialized through live music, movement, and the very fabric of textile. In this work I invited the Venezuelan software engineer and musician Rafael Becerra.
                   Becerra created a A MIDI color tracking software, specifically developed for the performance. This software operates as a twochannel colorbased notemapping system. A camera is connected to the computer, allowing us to select two colors from the textiles that are then mapped to different virtual instruments, based on their positions within the camera&apos;s field of view. This system helps impart a sense of textile generated melodies. Becerra is wearing a traditional Venezuelan liqui liqui costume integrated with prints of the Norwegian seaside. On top of the textile generated melodies
                   Becerra is playing the cuatro and Varhaugvik is singing.<br /><br />
                   Documentation by: Felica Sundberg<br /><br /><br />
