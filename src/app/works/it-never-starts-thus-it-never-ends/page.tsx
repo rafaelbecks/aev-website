@@ -49,7 +49,7 @@ export default function Her() {
               }}>
                   <Image
                       alt="transcendence-2"
-                      src={principal}
+                      src={performances2}
                   />
               </div>
               <div className="item" onClick={() => {
