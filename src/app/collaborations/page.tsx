@@ -4,7 +4,7 @@ import Link from "next/link";
 import performances1 from '../../../public/assets/collaborations/1.jpg'
 import performances2 from '../../../public/assets/collaborations/2.jpg'
 import performances3 from '../../../public/assets/collaborations/3.jpeg'
-import currentObsession from '../../../public/assets/collaborations/current-obsession/1.png'
+import currentObsession from '../../../public/assets/collaborations/current-obsession/1.jpg'
 
 export default function Collaborations() {
     return (

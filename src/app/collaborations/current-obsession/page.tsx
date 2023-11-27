@@ -6,12 +6,12 @@ import Script from 'next/script'
 import {Baskervville, Crimson_Text } from "next/font/google";
 import FsLightbox from "fslightbox-react";
 
-import performances1 from '../../../../public/assets/collaborations/current-obsession/1.png'
-import performances2 from '../../../../public/assets/collaborations/current-obsession/2.png'
-import performances3 from '../../../../public/assets/collaborations/current-obsession/3.png'
-import performances4 from '../../../../public/assets/collaborations/current-obsession/4.png'
-import performances5 from '../../../../public/assets/collaborations/current-obsession/5.png'
-import performances6 from '../../../../public/assets/collaborations/current-obsession/6.png'
+import performances1 from '../../../../public/assets/collaborations/current-obsession/1.jpg'
+import performances2 from '../../../../public/assets/collaborations/current-obsession/2.jpg'
+import performances3 from '../../../../public/assets/collaborations/current-obsession/3.jpg'
+import performances4 from '../../../../public/assets/collaborations/current-obsession/4.jpg'
+import performances5 from '../../../../public/assets/collaborations/current-obsession/5.jpg'
+import performances6 from '../../../../public/assets/collaborations/current-obsession/6.jpg'
 
 const BaskervvilleFont = Baskervville({ subsets: ['latin'],   style: ['normal', 'italic'], weight: "400" })
 
