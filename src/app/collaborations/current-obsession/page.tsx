@@ -92,6 +92,10 @@ export default function Transcendence() {
                         String(performances1.src),
                         String(performances2.src),
                         String(performances3.src),
+                        String(performances4.src),
+                        String(performances5.src),
+                        String(performances6.src),
+
                     ]}
                     type="image"
                     slide={lightboxController.slide}
