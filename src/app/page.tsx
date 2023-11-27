@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import works1 from '../../public/assets/trascendence.jpg'
 import works2 from '../../public/assets/her.jpg'
+import CrescentMoon from '../../public/assets/performances/crescent-moon/video-thumbnail.jpg'
 
 import hero from '../../public/assets/hero.png'
 export default function Home() {
@@ -19,6 +20,16 @@ export default function Home() {
               <h1>Amanda Elida Varhaugvik</h1>
           </div>
           <div className="works">
+              <Link href="performances/waiting-for-crescent-moon">
+                  <div className="grid-element">
+                      <Image
+                          alt="transcendence"
+                          src={CrescentMoon}
+                      />
+                      <h3>Waiting for the crescent moon</h3>
+                  </div>
+              </Link>
+
               <Link href="performances/merging-costume-voice-transcendence/konstfack">
                   <div className="grid-element">
                       <Image

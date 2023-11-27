@@ -7,6 +7,7 @@ import performances3 from '../../../public/assets/works/works3.jpg'
 import performances4 from '../../../public/assets/works/works4.jpg'
 import performances5 from '../../../public/assets/works/works5.jpg'
 import performances6 from '../../../public/assets/works/works6.jpg'
+import neverStarts from '../../../public/assets/works/never-starts/2.jpg'
 
 export default function Works() {
   return (
@@ -69,6 +70,20 @@ export default function Works() {
                   </div>
               </Link>
           </div>
+          <div className="performances">
+              <Link href="works/it-never-starts-thus-it-never-ends">
+                  <div className="item">
+                      <Image
+                          alt="transcendence-1"
+                          src={neverStarts}
+                      />
+                      <h3><br />It never starts, Thus, It never ends</h3>
+                  </div>
+              </Link>
+              <div className="item"/>
+              <div className="item"/>
+          </div>
+          <br /><br />
       </div>
   )
 }

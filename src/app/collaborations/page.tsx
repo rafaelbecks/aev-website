@@ -4,6 +4,7 @@ import Link from "next/link";
 import performances1 from '../../../public/assets/collaborations/1.jpg'
 import performances2 from '../../../public/assets/collaborations/2.jpg'
 import performances3 from '../../../public/assets/collaborations/3.jpeg'
+import currentObsession from '../../../public/assets/collaborations/current-obsession/1.png'
 
 export default function Collaborations() {
     return (
@@ -36,6 +37,19 @@ export default function Collaborations() {
                         <h3>Quööriem<br />at Eric Ericssonhallen</h3>
                     </div>
                 </Link>
+            </div>
+            <div className="performances">
+                <Link href="collaborations/current-obsession">
+                    <div className="item">
+                        <Image
+                            alt="transcendence-1"
+                            src={currentObsession}
+                        />
+                        <h3>Current Obsession <br />The Placeholder Issue Chapter 1</h3>
+                    </div>
+                </Link>
+                <div className="performances" />
+                <div className="performances" />
             </div>
         </div>
     )
