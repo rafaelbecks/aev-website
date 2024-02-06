@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div  className={`bio ${InterFont.className}`}>
-                    <p>
+                    {/* <p>
                         I am a Swedish/Norwegian artist based in Stockholm.</p>
                     <p>
                         My work is interdisciplinary, a merging of sound, textile craft and performance art . In the performances, I explore ways to portray costume as the initiator and main actor. For each performance I invite different cultural practitioners to under my guidance interpret the costumes. In collaboration with other musicians I explore ways to work with my voice as an enchanting tool capable of communicating the inexplicable. The voice becomes a bridge between the performance and the audience, inviting them to transcend.
@@ -50,7 +50,7 @@ export default function Home() {
                     </p>
                     <p>
                         My performance art is balancing on a thin line between a music performance, a fashion show and a sacred ceremony. My craft transitions through several layers of techniques and constantly evolves in formats. I work in a liminal state and I believe that it is in the cross section of fields that art can create a vibrating experience.
-                    </p>
+                    </p> */}
                 </div>
             </div>
     )
