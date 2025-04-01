@@ -9,6 +9,7 @@ import performances5 from '../../../public/assets/performances/transcendence-5.j
 import performances6 from '../../../public/assets/performances/transcendence-6.jpg'
 import crescentMoon from '../../../public/assets/performances/crescent-moon/video-thumbnail.jpg'
 import bioAspen from '../../../public/assets/performances/crescent-moon/bio-aspen/principal.jpg'
+import hdk from '../../../public/assets/collaborations/puta/handen3.jpg'
 
 export default function Performances() {
   return (
@@ -81,6 +82,15 @@ export default function Performances() {
                       <h3><br />Waiting for the crescent moon</h3>
                   </div>
               </Link>
+              <Link href="performances/hdk">
+                  <div className="item">
+                      <Image
+                          alt="transcendence-3"
+                          src={hdk}
+                      />
+                      <h3>Waiting for the crescent moon<br />at Handen Terminalen Konst</h3>
+                  </div>
+              </Link>
               <Link href="performances/waiting-for-crescent-moon/bio-aspen">
                   <div className="item">
                       <Image
@@ -90,7 +100,6 @@ export default function Performances() {
                       <h3>Waiting for the crescent moon <br />at Bio Aspen</h3>
                   </div>
               </Link>
-                  <div className="item" />
           </div>
           <br /><br /><br />
           </div>

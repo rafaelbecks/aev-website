@@ -5,6 +5,7 @@ import performances1 from '../../../public/assets/collaborations/1.jpg'
 import performances2 from '../../../public/assets/collaborations/2.jpg'
 import performances3 from '../../../public/assets/collaborations/3.jpeg'
 import currentObsession from '../../../public/assets/collaborations/current-obsession/1.jpg'
+import putadeamor from '../../../public/assets/collaborations/puta/putadeamor.jpg'
 
 export default function Collaborations() {
     return (
@@ -48,6 +49,20 @@ export default function Collaborations() {
                         <h3>Current Obsession <br />The Placeholder Issue Chapter 1</h3>
                     </div>
                 </Link>
+                <Link href="collaborations/rafael">
+                    <div className="item">
+                        <Image
+                            alt="transcendence-1"
+                            src={putadeamor}
+                        />
+                        <h3>Collaboration <br />with Rafael Becerra.</h3>
+                    </div>
+                </Link>
+                <div className="performances" />
+                <div className="performances" />
+                <div className="performances" />
+                <div className="performances" />
+                <div className="performances" />
                 <div className="performances" />
                 <div className="performances" />
             </div>
