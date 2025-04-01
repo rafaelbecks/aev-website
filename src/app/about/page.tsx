@@ -18,8 +18,6 @@ export default function Home() {
                         />
                     </div>
                     <div className={`${InterFont.className} bioinfo`}>
-                        <p>
-                            <Link href={"/assets/CV.pdf"} target="_blank" rel="noreferrer">CV</Link></p>
                         <p>Contact</p>
                         <p>
                             Email:<br />
